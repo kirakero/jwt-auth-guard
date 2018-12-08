@@ -29,12 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Irazasyed\\JwtAuthGuard\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Irazasyed\\JwtAuthGuard\\Test\\": "tests"
+            "kirakero\\JwtAuthGuard\\": "src"
         }
     },
     "suggest": {
@@ -49,7 +44,7 @@
         },
         "laravel": {
             "providers": [
-                "Irazasyed\\JwtAuthGuard\\JwtAuthGuardServiceProvider"
+                "kirakero\\JwtAuthGuard\\JwtAuthGuardServiceProvider"
             ]
         }
     },

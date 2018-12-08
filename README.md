@@ -37,7 +37,7 @@ $ composer require irazasyed/jwt-auth-guard
 Open `config/app.php` and, to your `providers` array at the bottom, add:
 
 ```php
-Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class
+kirakero\JwtAuthGuard\JwtAuthGuardServiceProvider::class
 ```
 
 #### Lumen
@@ -45,7 +45,7 @@ Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class
 Open `bootstrap/app.php` and register the service provider:
 
 ``` php
-$app->register(Irazasyed\JwtAuthGuard\JwtAuthGuardServiceProvider::class);
+$app->register(kirakero\JwtAuthGuard\JwtAuthGuardServiceProvider::class);
 ```
 
 ## Usage
