@@ -1,5 +1,5 @@
 {
-    "name": "irazasyed/jwt-auth-guard",
+    "name": "kirakero/jwt-auth-guard",
     "description": "JWT Auth Guard for Laravel and Lumen",
     "keywords": ["irazasyed", "laravel jwt auth guard", "lumen jwt auth guard", "jwt auth guard", "jwt guard"],
     "homepage": "https://github.com/irazasyed/laravel-jwt-guard",
@@ -10,6 +10,11 @@
             "email": "syed+gh@lukonet.com",
             "homepage": "https://lukonet.com",
             "role": "Developer"
+        },
+        {
+            "name": "Kira Nebilak",
+            "email": "kirakero@gmail.com",
+            "role": "Hacked one thing"
         }
     ],
     "require": {
