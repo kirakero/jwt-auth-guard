@@ -1,6 +1,6 @@
 <?php
 
-namespace Irazasyed\JwtAuthGuard;
+namespace kirakero\JwtAuthGuard;
 
 use BadMethodCallException;
 use Illuminate\Auth\GuardHelpers;
