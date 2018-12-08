@@ -160,6 +160,14 @@ class JwtAuthGuard implements Guard
     {
         $this->invalidate($forceForever);
 
+        $this->clearCredentials();
+    }
+
+    /**
+     * Clear the Guard of any credentials. Necessary in Lumen 5.6 when writing tests to make sure auth is working properly.
+     */
+    public function clearCredentials()
+    {
         $this->user = null;
         $this->jwt->unsetToken();
     }
